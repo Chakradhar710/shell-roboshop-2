@@ -9,7 +9,7 @@ read -s MYSQL_ROOT_PASSWORD
 
 app_setup
 maven_setup
-systemd_setup
+systemd_setup``
 
 dnf install mysql -y  &>>$LOG_FILE
 VALIDATE $? "Install MySQL"
